@@ -9,5 +9,7 @@
 
 	<h1>Ola mundo do Git</h1>
 
+	<p>Ola do meu paragrafo!</p>
+
 </body>
 </html>
