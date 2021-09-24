@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$('.single-planos').click(function(){
+		$(this).find('.btn-planos').slideDown();
+	})
+	$('.duvida-single').click(function(){
+		if($(this).find('.resposta-duvida').is(':visible')){
+			$(this).find('.mais').show();
+			$(this).find('.menos').hide();
+		}else{
+			$(this).find('.mais').hide();
+			$(this).find('.menos').show();
+		}
+		$(this).find('.resposta-duvida').slideToggle();
+	})
+})
